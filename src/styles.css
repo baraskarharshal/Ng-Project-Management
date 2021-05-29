@@ -13,7 +13,7 @@
   --shadowcolor: #84848629;
 }
 
-html {
+my-app {
   margin: 0;
   padding: 0;
 }
@@ -37,7 +37,7 @@ my-app {
   background: var(--grey);
 }
 
-.container {
+.pm-container {
   display: flex;
   height: 100vh;
   margin: 0;
