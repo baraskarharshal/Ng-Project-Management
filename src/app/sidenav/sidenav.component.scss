@@ -1,0 +1,93 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  /* // min-width: 240px;
+  // overflow: hidden; */
+}
+
+/* logo */
+
+.logo {
+  margin: 40px 0 60px 40px;
+}
+
+.logo-icon {
+  font-size: 30px;
+  color: var(--red);
+}
+
+.logo-name {
+  font-weight: bold;
+  margin-left: 6px;
+  color: var(--black);
+  display: inline-block;
+  font-size: 20px;
+}
+
+/* menus */
+
+.menu-heading {
+  margin-left: 40px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.menu-item,
+.user-options {
+  color: var(--grey);
+  margin-top: 25px;
+  margin-bottom: 25px;
+  cursor: pointer;
+  position: relative;
+}
+
+.menu-item:hover {
+  color: var(--red);
+}
+
+.menu-item-active {
+  color: var(--red);
+}
+
+.menu-item i {
+  margin-left: 40px;
+  font-size: 16px;
+  width: 40px;
+}
+
+.user-options {
+  display: flex;
+  align-items: center;
+}
+
+.user-options img {
+  margin-left: 40px;
+  margin-right: 5px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.menu-item span,
+.user-options span {
+  font-size: 14px;
+}
+
+.user-option-dropdown {
+  margin-left: 30px;
+}
+
+.active-indicator {
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  border-left: 10px solid var(--red);
+  display: none;
+  position: absolute;
+  top: -10px;
+}
+
+.active-ind {
+  display: inline-block;
+}
