@@ -6,28 +6,16 @@ export interface Menu {
 
 export const menuList = [
   {
-    name: 'Home',
-    icon: 'fas fa-home'
-  },
-  {
     name: 'Projects',
-    icon: 'fas fa-th-large',
+    icon: 'fas fa-list-alt',
     isActive: true
   },
   {
-    name: 'Billing',
-    icon: 'fas fa-list-alt'
-  },
-  {
-    name: 'Team Members',
+    name: 'Users',
     icon: 'fas fa-user-friends'
   },
   {
-    name: 'Client',
-    icon: 'fas fa-calculator'
-  },
-  {
-    name: 'Settings',
-    icon: 'fas fa-cog'
+    name: 'Domains',
+    icon: 'fas fa-th-large'
   }
 ];
