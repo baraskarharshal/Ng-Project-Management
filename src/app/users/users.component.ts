@@ -13,7 +13,9 @@ export class UsersComponent implements OnInit {
   ngOnInit() {}
 
   onClickAddUser() {
-    const modalRef = this.modalService.open(AddUserComponent);
+    const modalRef = this.modalService.open(AddUserComponent, {
+      backdrop: 'static'
+    });
     modalRef.componentInstance.name = 'World';
   }
 }

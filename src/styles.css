@@ -107,3 +107,20 @@ my-app {
     padding: 15px;
   }
 }
+
+/* ngb modal global style */
+.modal-content {
+      font-family: 'Roboto';
+}
+.modal-header {
+  border-top-left-radius: unset;
+  border-top-right-radius: unset;
+  border-top: 4px solid var(--red);
+}
+
+/* Bootstrap customizations */
+
+.btn-primary {
+  background-color: var(--red) !important;
+  border-color: var(--red) !important;
+}

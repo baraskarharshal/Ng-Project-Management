@@ -11,4 +11,12 @@ export class AddUserComponent implements OnInit {
   constructor(public activeModal: NgbActiveModal) {}
 
   ngOnInit() {}
+
+  onSave() {
+    this.activeModal.close('Close click');
+  }
+
+  onCancel() {
+    this.activeModal.close('Close click');
+  }
 }
