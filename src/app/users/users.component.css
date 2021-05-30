@@ -3,6 +3,30 @@
   margin: 40px;
 }
 
+.header {
+  justify-content: space-between;
+}
+
 .main {
   font-size: 12px;
+}
+
+.action {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.action:hover {
+  background: var(--greylight);
+}
+
+.btn-add {
+  background: var(--red);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  border: unset;
+  border-radius: 20px;
+  font-size: 25px;
 }
