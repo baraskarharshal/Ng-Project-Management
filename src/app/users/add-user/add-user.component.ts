@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-add-user',
@@ -7,7 +7,8 @@ import { NgbActiveModal, NgbModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./add-user.component.css']
 })
 export class AddUserComponent implements OnInit {
-  constructor() {}
+  name = 'Hello';
+  constructor(public activeModal: NgbActiveModal) {}
 
   ngOnInit() {}
 }
