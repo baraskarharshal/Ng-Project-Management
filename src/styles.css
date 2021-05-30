@@ -110,7 +110,7 @@ my-app {
 
 /* ngb modal global style */
 .modal-content {
-      font-family: 'Roboto';
+  font-family: 'Roboto';
 }
 .modal-header {
   border-top-left-radius: unset;
