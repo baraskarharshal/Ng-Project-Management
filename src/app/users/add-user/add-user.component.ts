@@ -7,7 +7,10 @@ import { NgbActiveModal } from '@ng-bootstrap/ng-bootstrap';
   styleUrls: ['./add-user.component.css']
 })
 export class AddUserComponent implements OnInit {
-  name = 'Hello';
+  fname = '';
+  lname = '';
+  role = '';
+  location = '';
   constructor(public activeModal: NgbActiveModal) {}
 
   ngOnInit() {}
