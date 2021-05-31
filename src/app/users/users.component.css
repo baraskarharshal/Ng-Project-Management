@@ -1,16 +1,20 @@
-.container .header,
-.container .main {
+.page-container .header {
+  padding: 20px 40px;
+}
+
+.page-container .main {
   padding: 40px;
 }
 
 .header {
+  display: flex;
   justify-content: space-between;
 }
 
 .main {
   background: var(--greylight);
-  font-size: 12px;
-  height: calc(100vh - 126px);
+  font-size: 14px;
+  height: calc(100vh - 86px);
 }
 
 .action {
