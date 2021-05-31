@@ -1,6 +1,6 @@
 .container .header,
 .container .main {
-  margin: 40px;
+  padding: 40px;
 }
 
 .header {
@@ -8,7 +8,9 @@
 }
 
 .main {
+  background: var(--greylight);
   font-size: 12px;
+  height: calc(100vh - 126px);
 }
 
 .action {
@@ -29,4 +31,8 @@
   border: unset;
   border-radius: 20px;
   font-size: 25px;
+}
+
+.table-responsive {
+  min-height: 300px;
 }

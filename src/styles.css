@@ -124,3 +124,8 @@ my-app {
   background-color: var(--red) !important;
   border-color: var(--red) !important;
 }
+
+.table-responsive {
+  background: var(--white);
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
