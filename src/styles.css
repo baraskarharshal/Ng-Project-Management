@@ -143,6 +143,7 @@ my-app {
   cursor: pointer;
   padding: 5px;
   border-radius: 3px;
+  font-size: 12px;
 }
 
 .table td .action:hover {
