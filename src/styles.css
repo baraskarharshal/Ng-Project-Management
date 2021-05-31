@@ -108,6 +108,47 @@ my-app {
   }
 }
 
+/* page global styles */
+
+.page-container .header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+}
+
+.page-container .main {
+  padding: 40px;
+  background: var(--greylight);
+  font-size: 14px;
+  height: calc(100vh - 86px);
+}
+
+.btn-add {
+  background: var(--red);
+  color: var(--white);
+  width: 40px;
+  height: 40px;
+  border: unset;
+  border-radius: 20px;
+  font-size: 25px;
+}
+
+/* table global style */
+.table-responsive {
+  background: var(--white);
+  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+}
+
+.table td .action {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.table td .action:hover {
+  background: var(--greylight);
+}
+
 /* ngb modal global style */
 .modal-content {
   font-family: 'Roboto';
@@ -123,9 +164,4 @@ my-app {
 .btn-primary {
   background-color: var(--red) !important;
   border-color: var(--red) !important;
-}
-
-.table-responsive {
-  background: var(--white);
-  box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
 }
