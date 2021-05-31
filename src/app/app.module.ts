@@ -15,13 +15,7 @@ import { NgbModalModule } from '@ng-bootstrap/ng-bootstrap';
 import { usersReducer } from './users/state/users.reducer';
 
 @NgModule({
-  imports: [
-    BrowserModule,
-    FormsModule,
-    AppRoutingModule,
-    NgbModalModule,
-    StoreModule.forRoot({ users: usersReducer })
-  ],
+  imports: [BrowserModule, FormsModule, AppRoutingModule, NgbModalModule],
   declarations: [
     AppComponent,
     HelloComponent,
