@@ -17,19 +17,19 @@
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr *ngFor="let user of users$ | async">
             <td>
               <i class="fas fa-pencil-alt text-success action mx-1"></i>
               <i class="fas fa-trash-alt text-danger action mx-1"></i>
             </td>
-            <td>1</td>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-            <td>@mdo</td>
+            <td>user.id</td>
+            <td>user.fname</td>
+            <td>user.lname</td>
+            <td>user.role</td>
+            <td>user.location</td>
           </tr>
 
-          <tr>
+          <!-- <tr>
             <td>
               <i class="fas fa-pencil-alt text-success action mx-1"></i>
               <i class="fas fa-trash-alt text-danger action mx-1"></i>
@@ -39,7 +39,7 @@
             <td>Otto</td>
             <td>@mdo</td>
             <td>@mdo</td>
-          </tr>
+          </tr> -->
         </tbody>
       </table>
     </div>

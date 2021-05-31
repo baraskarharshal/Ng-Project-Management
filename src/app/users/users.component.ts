@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { Observable } from 'rxjs';
 import { AddUserComponent } from './add-user/add-user.component';
+import { User } from './user.config';
 
 @Component({
   selector: 'app-users',
@@ -8,6 +10,8 @@ import { AddUserComponent } from './add-user/add-user.component';
   styleUrls: ['./users.component.css']
 })
 export class UsersComponent implements OnInit {
+  users$: Observable<User[]>;
+
   constructor(private modalService: NgbModal) {}
 
   ngOnInit() {}
